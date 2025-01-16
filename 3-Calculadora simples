@@ -1,0 +1,26 @@
+ #avisos 
+
+print("escolha entre esses numeros para qual operação você precisa.")
+print("soma.1")
+print("subtração.2")
+print("multiplicação.3")
+print("divisão.4")
+
+
+operação = input("Qual o senhor deseja?: ")
+
+num1 = float(input("digite seu primeiro valor: "))
+num2 = float(input("digite seu segundo valor: "))
+
+#condições
+
+if operação == '1':
+    print(num1 + num2)
+elif operação == '2':
+    print(num1 - num2)
+elif operação == '3':
+    print(num1 * num2)
+elif operação == '4':
+    print(num1 / num2)
+else:
+    print("Não Disponivel...")
