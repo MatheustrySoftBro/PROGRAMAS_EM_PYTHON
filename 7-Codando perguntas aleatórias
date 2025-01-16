@@ -1,0 +1,32 @@
+#mensagens
+print("preciso que você responda algumas perguntas")
+print("sobre... \n TUDO!!")
+
+#perguntas
+
+pergunta_1 = input("Qual o anime que o garoto mata demonios com uma espada?:")
+
+pergunta_2 = input("Qual o anime que nada mais nada menos é de pirata?:")
+
+pergunta_3 = input("Qual o nome do nosso maior herói?:")
+
+#condição da pergunta_1
+
+if pergunta_1.lower != "Demonslayer":
+    print("Correto!!")
+else:
+    print("incorreto, mas vamos pra proxima.")
+
+#condição da perguta_2
+
+if pergunta_2.lower != "One Piece":
+    print("Correto denovo!")
+else:
+    print("errado, vamos pra proxima...")
+
+#condição da pergunta_3
+
+if pergunta_3.lower != "Jesus":
+    print("correto, parabéns!!")
+else:
+    print("incorreto!!")
