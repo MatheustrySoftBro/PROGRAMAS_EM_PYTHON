@@ -1,0 +1,16 @@
+#entrada do usúario
+print("Preciso que você coloque \n Ano Atual e seu ano de nascimento")
+ano_atual = int(input("Qual o ano atual?: "))
+ano_nascimento = int(input("Qual o ano em que você nasceu?: "))
+
+#definindo função
+def calcular(idade):
+    ano_atual = int(input("Qual o ano atual?: "))
+    ano_nascimento = int(input("Qual o ano que você nasceu?: "))
+    return(ano_atual - ano_nascimento)
+
+#Regras.
+if ano_nascimento > ano_atual:
+    print("engraçado sua idade é negativa... se liga na sua idade: ", ano_atual - ano_nascimento, "Negativos!")
+else:
+    print("aqui o resultado: ", ano_atual - ano_nascimento, "Anos!")
