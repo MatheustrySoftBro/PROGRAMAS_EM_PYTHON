@@ -1,0 +1,10 @@
+#entrada do usúario
+print("Por favor falar a temperatura em celsius")
+temperatura_celsius = int(input("Qual a temperatura em celsius?: ")) 
+temperatura_kelvin = 273.15         # A formula no caso é: TK = TC + 273.15
+
+#definindo função
+def calcular_kelvin(temperatura_kelvin):
+    temperatura_celsius = int(input("Qual a temperatura em Celsius agora?: "))
+    return(temperatura_celsius + float(temperatura_kelvin))
+print(temperatura_celsius + float(temperatura_kelvin))
