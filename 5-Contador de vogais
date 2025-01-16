@@ -1,0 +1,14 @@
+#contador de vogais
+#entrada do usuário
+
+frase = input("Diga sua frase:")
+
+contador_vogais = 0
+
+vogais = "aAeEiIoOuU"
+
+for letra in frase:
+    if letra in vogais:
+        contador_vogais += 1
+
+print(f"quantidade de vogais:{contador_vogais}")
